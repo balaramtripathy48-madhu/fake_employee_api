@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS employees (
+    emp_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    department TEXT NOT NULL,
+    salary INTEGER NOT NULL
+);
